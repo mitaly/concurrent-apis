@@ -1,0 +1,53 @@
+2020-10-22 15:57:18.379  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 0
+2020-10-22 15:57:19.381  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 1
+2020-10-22 15:57:20.382  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 2
+2020-10-22 15:57:21.382  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 3
+2020-10-22 15:57:22.382  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 4
+2020-10-22 15:57:23.383  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 5
+2020-10-22 15:57:24.384  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 6
+2020-10-22 15:57:25.384  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 7
+2020-10-22 15:57:26.385  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 8
+2020-10-22 15:57:27.385  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 9
+2020-10-22 15:57:28.386  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Task is completed. Thread ID: 49
+2020-10-22 15:57:30.875  INFO 5220 --- [nio-8081-exec-5] c.s.c.controller.ConcurrentController    : Last process was completed successfully
+2020-10-22 15:57:33.125  INFO 5220 --- [nio-8081-exec-6] c.s.c.controller.ConcurrentController    : Last process was completed successfully
+2020-10-22 15:57:36.458  INFO 5220 --- [nio-8081-exec-8] c.s.c.controller.ConcurrentController    : New task started
+2020-10-22 15:57:36.458  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 0
+2020-10-22 15:57:37.458  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 1
+2020-10-22 15:57:38.458  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 2
+2020-10-22 15:57:39.459  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 3
+2020-10-22 15:57:40.459  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 4
+2020-10-22 15:57:41.397 ERROR 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Thread ID: 49 was interrupted. Stopping the task
+2020-10-22 15:57:41.397  INFO 5220 --- [nio-8081-exec-7] c.s.c.controller.ConcurrentController    : Cancelling the last executing task
+2020-10-22 15:57:46.460  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 0
+2020-10-22 15:57:46.460  INFO 5220 --- [nio-8081-exec-9] c.s.c.controller.ConcurrentController    : New task started
+2020-10-22 15:57:47.461  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 1
+2020-10-22 15:57:48.461  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 2
+2020-10-22 15:57:49.462  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 3
+2020-10-22 15:57:50.462  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 4
+2020-10-22 15:57:51.463  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 5
+2020-10-22 15:57:52.464  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 6
+2020-10-22 15:57:53.464  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 7
+2020-10-22 15:57:53.785 ERROR 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Thread ID: 49 was interrupted. Stopping the task
+2020-10-22 15:57:53.785  INFO 5220 --- [io-8081-exec-10] c.s.c.controller.ConcurrentController    : Cancelling the last executing task
+2020-10-22 15:57:53.785  INFO 5220 --- [io-8081-exec-10] c.s.c.controller.ConcurrentController    : New task started
+2020-10-22 15:57:53.785  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 0
+2020-10-22 15:57:54.785  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 1
+2020-10-22 15:57:55.787  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 2
+2020-10-22 15:57:56.788  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 3
+2020-10-22 15:57:57.788  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 4
+2020-10-22 15:57:58.788  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 5
+2020-10-22 15:57:59.789  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 6
+2020-10-22 15:58:00.789  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 7
+2020-10-22 15:58:01.790  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 8
+2020-10-22 15:58:02.791  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 9
+2020-10-22 15:58:03.711  INFO 5220 --- [nio-8081-exec-1] c.s.c.controller.ConcurrentController    : Cancelling the last executing task
+2020-10-22 15:58:03.711 ERROR 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Thread ID: 49 was interrupted. Stopping the task
+2020-10-22 15:58:06.344  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 0
+2020-10-22 15:58:06.344  INFO 5220 --- [nio-8081-exec-3] c.s.c.controller.ConcurrentController    : New task started
+2020-10-22 15:58:07.344  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 1
+2020-10-22 15:58:08.345  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 2
+2020-10-22 15:58:09.346  INFO 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Consumed: 3
+2020-10-22 15:58:10.211  INFO 5220 --- [nio-8081-exec-2] c.s.c.controller.ConcurrentController    : Cancelling the last executing task
+2020-10-22 15:58:10.211 ERROR 5220 --- [pool-1-thread-1] com.services.concurrent.task.Task        : Thread ID: 49 was interrupted. Stopping the task
+2020-10-22 15:58:12.971  INFO 5220 --- [nio-8081-exec-4] c.s.c.controller.ConcurrentController    : Process was disrupted by another request
